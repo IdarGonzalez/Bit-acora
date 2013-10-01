@@ -1,0 +1,238 @@
+body{
+	background-color: #5A5A5A;
+	padding: 0px;
+	margin: 0px auto;
+	font-family: 'News Cycle', sans-serif;
+}
+
+header {
+	height: 80px;
+	margin: 0px;
+	top: 0px;
+	width: 100%;
+	background-color:#F4F4F4;
+	float:left;
+	position: fixed;
+	box-shadow: 0px 1px 3px black;
+	z-index: 1
+}
+
+
+
+nav {
+	margin: 10px auto;
+	padding: 0;
+	width:1024px;
+}
+
+nav ul{
+	float: right;
+	padding: 0 20px
+}
+
+nav ul a{
+	color:#79A7A4;
+	text-decoration: none;
+}
+
+nav ul a:hover{
+	color:#DF0129;
+	text-decoration: none;
+}
+
+
+nav li{
+	margin: 0 40px;
+	list-style: none;
+	float: left;
+	font-size: 17px
+}
+
+nav li:hover{
+	border-bottom: solid 2px #DF0129
+
+}
+
+
+.definition {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	width:1020px;
+	margin: 100px auto 0px;
+
+}
+
+#wrap {
+	width: 975px;
+	height: 3000px;
+	margin: 20px auto;
+}
+
+#content {
+	position: relative;
+}
+
+.content-1 {
+	float: left;
+	width: 320px;
+	height: 320px;
+	background-color: #DF0129;
+	border: 1px solid #5A5A5A;
+	overflow: hidden;
+}
+
+.content-1 img{
+	width: 200%;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-1:hover img{
+	opacity: 0.1
+}
+
+.img-1-desc {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	padding-left: 10px;
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.date {
+	font-size:30px;
+}
+
+.categ {
+	font-size: 20px;
+}
+.content-1:hover .img-1-desc{
+ visibility: visible;
+  opacity: 1;
+}
+
+.content-2 {
+	float: left;
+	width: 644px;
+	height: 320px;
+	background-color: #79A7A4;
+	border: 1px solid #5A5A5A;
+	overflow: hidden;
+}
+
+.content-2 img{
+	width: 100%;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-2:hover img{
+	opacity: 0.1
+}
+
+.img-2-desc {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	padding-left: 10px;
+	color: #B0F3EF;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-2:hover .img-2-desc{
+ visibility: visible;
+  opacity: 1;
+}
+
+.content-3 {
+	float: left;
+	width: 320px;
+	height: 640px;
+	background-color: #F4F4F4;
+	border: 1px solid #5A5A5A;
+	overflow: hidden;
+}
+
+.content-3 img{
+	width: 200%;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-3:hover img{
+	opacity: 0.2
+}
+
+.img-3-desc {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	padding-left: 10px;
+	color: #353535;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-3:hover .img-3-desc{
+ visibility: visible;
+  opacity: 1;
+}
+
+.content-audio {
+	float: left;
+	width: 320px;
+	height: 320px;
+	background-color: #F4F4F4;
+	border: 1px solid #5A5A5A;
+	overflow: hidden;
+}
+
+.content-audio img{
+	width: 200%;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-audio:hover img{
+	opacity: 0.2
+}
+
+.img-audio-desc {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	padding-left: 10px;
+	color: #353535;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.content-audio:hover .img-audio-desc{
+ visibility: visible;
+  opacity: 1;
+}
