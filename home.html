@@ -3,40 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>bit-ácora</title>
-	<meta name=”Description” content=”Bitacora de dibujos, comentarios y sonidos”>
-	<meta name=”Author” content=”Idar Gonzalez”>
 	<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/9815315/prueba2.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
+	<!-- Menú superior -->
 	<header>
 		<nav>
-			<a href="home.html"><img src="img/bitlogo.png"></a>
+			<a href="home.html"><img src="img/bitlogo.png" alt="Logo de Bit-ácora"></a>
 			<ul>
-				<a href="home.html"><li>home</li></a>
-				<a href="#"><li>historial de archivos</li></a>
-				<a href="#"><li>acerca de</li></a>
+				<li class="currentlink"><a href="home.html">home</a></li>
+				<li><a href="historial.html">historial de archivos</a></li>
+				<li><a href="acerca.html">acerca de</a></li>
 				<input type=”search” placeholder="búsqueda">
 
 			</ul>
 		</nav>
 
 	</header>
+	<!-- Fin menú superior -->
 	
-	<div class="definition">
-		<p>1. m. Mar. Libro en que se apunta el rumbo, velocidad, maniobras y demás accidentes de la navegación</p>
-	</div>
 	<!-- contenido -->
 	<div id="wrap">
+		<div class="definition">
+		<p>Bitácora: 1. m. Mar. Libro en que se apunta el rumbo, velocidad, maniobras y demás accidentes de la navegación</p>
+	</div>
 		<div id="content">
 
-			
 			<div class="content-1">
-				<p class="img-1-desc">Reunión<br><span class="date">2011 - 6 - 12</span><br><span class="categ">croquis</span></p>
-				<img src="img/croquistest1.jpg" alt="croquis">
+				<div class="thumb">
+					<p class="img-1-desc">Reunión<br><span class="date">2011 - 6 - 12</span><br><span class="categ">croquis</span></p>
+    				<a href="img/croquistest1.jpg" rel="lightbox[roadtrip]" title="Reunión<br>2011 - 6 - 12<br>croquis"><img src="img/croquistest1.jpg"></a>
+				</div>
+
 			</div>
 			<div class="content-2">
 				<p class="img-2-desc">Valparaíso desde el mar<br><span class="date">2013 - 8 - 11</span><br><span class="categ">instagram</span></p>
@@ -61,7 +66,7 @@
 				<img src="img/imagentest2.jpg">
 			</div>
 
-						<div class="content-audio">
+			<div class="content-audio">
 				
 				<audio controls="controls">  
 				   <source src="audio/contraforma.mp3" />    
