@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color: #5A5A5A;
 	padding: 0px;
@@ -10,7 +15,7 @@ header {
 	margin: 0px;
 	top: 0px;
 	width: 100%;
-	background-color:#F4F4F4;
+	background-color:#dddddd;
 	float:left;
 	position: fixed;
 	box-shadow: 0px 1px 3px black;
@@ -25,7 +30,38 @@ nav {
 
 nav ul{
 	float: right;
+	margin-top: 16px;
 	padding: 7px 0px
+}
+
+input{
+	margin-top: 10px;
+	background-color: #F4F4F4;
+	border:1.5px solid white;
+}
+
+::-webkit-input-placeholder {
+   color: #79A7A4;
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #79A7A4;  
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #79A7A4;  
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+   color: #79A7A4; 
+   font-style: italic; 
+}
+
+input:active{
+	border:1px solid white;
 }
 
 nav ul a{
@@ -46,7 +82,7 @@ nav ul a:hover{
 
 nav li{
 	font-family: 'News Cycle', sans-serif;
-	margin: 0 47px;
+	margin: 0px 47px 0px;
 	list-style: none;
 	float: left;
 	font-size: 20px
@@ -71,23 +107,93 @@ nav li:hover{
 #wrap {
 	width: 975px;
 	margin: 50px auto;
+
+
 }
 
 #content {
 	position: relative;
 	height: 100%;
+	min-height: 1000px;
 	margin: 50px auto;
-	background-color: white
+
 }
 
 footer {
 	bottom: 0px;
-	background-color:#F4F4F4;
+	background-color:#2c2c2c;
 	width: 100%;
 	height: 120px;
 	clear: both;
 }
 
+#Fondo {
+	position: absolute;
+	top:0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1;
+	position: fixed;
+}
+
+#Fondo img{
+	width: 100vmax;
+}
+
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 39px;
+	display: inline-block;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 29px;
+	display: inline-block;
+}
+
+#Web {
+	margin: 500px auto;
+	position: absolute;
+	top: 90px
+}
+
+#Connect {
+	position: relative;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 10px;
+	color: white;
+	width:700px;
+	margin: 300px auto 20px 328px;
+}
+
+#Name {
+	width: 170px;
+	color: white;
+	border:2px solid white;
+	padding: 10px;
+	position: relative;
+	top: 200px;
+	left: 320px;
+}
+
+
+#description {
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: relative;
+	font-weight: 400;
+	font-size: 22px;
+	color: white;
+	width:700px;
+	margin: 300px auto 0px 324px;
+
+}
 #foot {
 
 	margin:0 auto;
@@ -96,14 +202,17 @@ footer {
 }
 
 #foot img{
-	margin: 30px 20px 0px 0px
+	margin: 30px 5px 0px 0px
 }
 
 #contacto {
+	border:2px solid white;
+	padding: 10px;
+	margin-top: 25px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
-	color:#DF0129;
-	width: 300px;
+	color:white;
+	width: 250px;
 	float: left;
 	letter-spacing: 1px
 }
@@ -256,13 +365,17 @@ footer {
 	float: left;
 	width: 320px;
 	height: 320px;
-	background-color: #F4F4F4;
+	background-color: #DFC160;
 	border: 2px solid #5A5A5A;
 	overflow: hidden;
 }
 
 .content-audio img{
 	width: 200%;
+	margin-top: 0;
+	display: block;
+	overflow: hidden;
+	z-index: -2;
 	transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
@@ -274,10 +387,14 @@ footer {
 
 .img-audio-desc {
 	font-family: 'News Cycle', sans-serif;
-	font-size: 40px;
-	text-transform: uppercase;
+	font-size: 50px;
+	max-width: 300px;
+	letter-spacing: -2px;
+	line-height: 27px;
+	text-transform: lowercase;
 	position: absolute;
 	padding-left: 10px;
+	margin-top:25px;
 	color: #353535;
 	visibility: hidden;
 	opacity: 0;
@@ -289,4 +406,36 @@ footer {
 .content-audio:hover .img-audio-desc{
  visibility: visible;
   opacity: 1;
+}
+
+.button {
+   margin-top: 200px;
+   margin-left: 30px;
+   margin-right: 45px;
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: black;
+   color: white;
+   font-family: 'News Cycle', sans-serif;
+   font-size: 50px;
+   text-decoration: none;
+   vertical-align: middle;
+   display: inline-block;
+   }
+.button:hover {
+   border: 1px solid white;
+   text-shadow: #1e4158 0 1px 0;
+   background: white;
+   color: #DFC160;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #669999;
+   color: #fff;
 }
