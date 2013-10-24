@@ -8,9 +8,9 @@
 	<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/lightbox.js"></script>
-	<link href="css/lightbox.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
 </head>
 
 <body>
@@ -22,8 +22,6 @@
 				<li><a href="home.html">registro</a></li>
 				<li><a href="acerca.html">acerca de</a></li>
 				<li class="currentlink"><a href="notas.html">deja una nota</a></li>
-				<input type=”search” placeholder="búsqueda">
-
 			</ul>
 		</nav>
 
@@ -33,12 +31,12 @@
 	<!-- contenido -->
 	<div id="wrap">
 		<div id="content">
-			<section id="About">
-				<h2>Deja una nota</h2>
+			<section id="seeComments">
+				<button class="openComments"><h2>Ver notas</h2></button>
 			</section>
 
-			<section id="Invitation">
-				<p>Bit-ácora es un proyecto que nace tras la necesidad de reunir diverso material personal en un sólo lugar, permitiendo una versatilidad de contenido, donde cada elemento se inscribe en bloques que se ordenan según fecha de publicación. La misma estructura permite una extensión natural de contenido. </p>
+			<section id="Comment">
+				<button class="Form"><h2>Dejar una nota</h2></button>
 			</section>
 
 			<div id="comment_form">
@@ -50,7 +48,7 @@
 					<input type="email" name="email" id="email" value="" placeholder="e-mail">
 				</div>
 				<div>
-					<textarea rows="5" name="comment" id="comment" placeholder="Comentario"></textarea>
+					<textarea rows="5" name="comment" id="comment" placeholder="Expláyate acá"></textarea>
 				</div>
 				<div>
 					<input type="submit" name="submit" value="Dejar comentario">
@@ -62,35 +60,29 @@
 			</section>
 
 			<section class="Comments">
-
+			<div class="Comment-Box">
+				<div class="Comment-Box-Message"><p class"Nota">Nota de prueba, es que esto es sólo una simulación. A pesar de que la lectura puede ser algo difícil, creo que lo prefiero así.</p></div>
+				<div class="Comment-Box-UserInfo"><p class="data">Pepe<span class="datePost">posteó el 2013-10-23<p></div>
+			</div>
+			<div class="Comment-Box">
+				<div class="Comment-Box-Message"><p class"Nota">Hola.</p></div>
+				<div class="Comment-Box-UserInfo"><p class="data">Juan<span class="datePost">posteó el 2013-10-23<p></div>
+			</div>
+			<div class="Comment-Box">
+				<div class="Comment-Box-Message"><p class"Nota">Nota de prueba, es que esto es sólo una simulación. A pesar de que la lectura puede ser algo difícil, creo que lo prefiero así.</p></div>
+				<div class="Comment-Box-UserInfo"><p class="data">Hugo<span class="datePost">posteó el 2013-10-22<p></div>
+			</div>
+			<div class="Comment-Box">
+				<div class="Comment-Box-Message"><p class"Nota">Dejaré esto por acá: http://www.youtube.com/watch?v=50Y8UBKI09k</p></div>
+				<div class="Comment-Box-UserInfo"><p class="data">Luis<span class="datePost">posteó el 2013-10-20<p></div>
+			</div>
 			</section>
 
 
 		</div>
 	</div>
 <div id="Backg">
-	<img src="img/fondoacerca.jpg">
+	<img src="img/fondoacerca3.jpg">
 </div>
-<!-- Footer -->
-	<footer>
-		<div id="foot">
-			<div id="contacto">
-				<p>Idar González Díaz</p>
-				<p>teléfono: + 56 9 59 58 55 58</p>
-			</div>
-			<div id="iconos">
-				<a href="https://www.facebook.com/DibujanteCronico"><img src="img/icons/facebook-32.png"></a>
-				<a href="mailto:idargonzalez@gmail.com"><img src="img/icons/gmail-32.png"></a>
-				<a href="https://github.com/IdarGonzalez"><img src="img/icons/github-32.png"></a>
-				<a href="http://instagram.com/idargonzalez#"><img src="img/icons/instagram-32.png"></a>
-				<a href="http://www.lastfm.es/user/ZissorS"><img src="img/icons/lastfm-32.png"></a>
-				<a href="https://soundcloud.com/idargonzalez"><img src="img/icons/soundcloud-32.png"></a>
-				<a href="https://twitter.com/IdarGonzalez"><img src="img/icons/twitter-32.png"></a>
-				<a href="https://vimeo.com/user12141784"><img src="img/icons/vimeo-32.png"></a>
-				<a href="http://www.youtube.com/user/TheZissorS"><img src="img/icons/youtube-32.png"></a>
-			</div>
-		</div>
-	</footer>
-<!-- fin footer -->
 </body>
 </html>

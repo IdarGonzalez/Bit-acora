@@ -8,9 +8,13 @@
 	<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/lightbox.js"></script>
-	<link href="css/lightbox.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+	<script type="text/javascript" src="js/shadowbox.js"></script>
+	<script type="text/javascript">
+	Shadowbox.init();
+	</script>
+
 </head>
 
 <body>
@@ -22,8 +26,6 @@
 				<li class="currentlink"><a href="home.html">registro</a></li>
 				<li><a href="acerca.html">acerca de</a></li>
 				<li><a href="notas.html">deja una nota</a></li>
-				<input type=”search” placeholder="búsqueda">
-
 			</ul>
 		</nav>
 
@@ -39,62 +41,64 @@
 			<!-- Quizás esto debería ser Article y no un div, ya que esta caja de contenido va a ir cambiando de lugar -->
 			<div class="content-2">
 				<p class="img-2-desc">Victoria<br><span class="date">2013 - 9 - 21</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest6.jpg" rel="lightbox[roadtrip]" title="Victoria / 2013 - 9 - 21 / instagram"><img src="img/imagentest6.jpg"></a>
+				<a href="img/imagentest6.jpg" rel="shadowbox[instagram]" title="Victoria / 2013 - 9 - 21"><img src="img/imagentest6.jpg"></a>
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Quincho<br><span class="date">2013 - 4 - 22</span><br><span class="categ">croquis</span></p>
-    			<a href="img/croquistest8.jpg" rel="lightbox[roadtrip]" title="Quincho / 2013 - 4 - 22 / croquis"><img src="img/croquistest8.jpg"></a>
+    			<a href="img/croquistest8.jpg" rel="shadowbox[croquis]" title="Quincho / 2013 - 4 - 22"><img src="img/croquistest8.jpg"></a>
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Reunión<br><span class="date">2011 - 6 - 12</span><br><span class="categ">croquis</span></p>
-    			<a href="img/croquistest1.jpg" rel="lightbox[roadtrip]" title="Reunión / 2011 - 6 - 12 / croquis"><img src="img/croquistest1.jpg"></a>
+    			<a href="img/croquistest1.jpg" rel="shadowbox[croquis]" title="Reunión / 2011 - 6 - 12"><img src="img/croquistest1.jpg"></a>
 			</div>
 			<!-- por ejemplo quizás así podría ser con figure y figcaption -->
 			<div class="content-2">
 				<p class="img-2-desc">Valparaíso desde el mar<br><span class="date">2013 - 8 - 11</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest1.jpg" rel="lightbox[roadtrip]" title="Valparaíso desde el mar / 2013 - 8 - 11 / instagram"><img src="img/imagentest1.jpg"></a>
+				<a href="img/imagentest1.jpg" rel="shadowbox[instagram]" title="Valparaíso desde el mar / 2013 - 8 - 11"><img src="img/imagentest1.jpg"></a>
 			</div>
 			<!-- fin prueba ejemplo -->
 			<div class="content-3">
 				<p class="img-3-desc">Cello Bow<br><span class="date">2005 - 4 - 3</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest1.jpg" rel="lightbox[roadtrip]" title="Cello bow / 2005 - 4 - 3 / ilustración digital"><img src="img/ilustraciontest1.jpg"></a>
+				<a href="img/ilustraciontest1.jpg" rel="shadowbox[ilustración digital]" title="Cello bow / 2005 - 4 - 3"><img src="img/ilustraciontest1.jpg"></a>
 			</div>
 
 			<div class="content-1">
 				<p class="img-1-desc">Sao Paulo 1<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest2.jpg" rel="lightbox[roadtrip]" title="Sao Paulo 1 / 2012 - 10 - 12 / croquis"><img src="img/croquistest2.jpg"></a>
+				<a href="img/croquistest2.jpg" rel="shadowbox[croquis]" title="Sao Paulo 1 / 2012 - 10 - 12"><img src="img/croquistest2.jpg"></a>
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Sao Paulo 2<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest3.jpg" rel="lightbox[roadtrip]" title="Sao Paulo 2 / 2012 - 10 - 12 / croquis"><img src="img/croquistest3.jpg"></a>
+				<a href="img/croquistest3.jpg" rel="shadowbox[croquis]" title="Sao Paulo 2 / 2012 - 10 - 12"><img src="img/croquistest3.jpg"></a>
 			</div>
 
 			<div class="content-2">
 				<p class="img-2-desc">Ventana<br><span class="date">2013 - 7 - 1</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest2.jpg" rel="lightbox[roadtrip]" title="Ventana / 2013 - 7 - 1 / instagram"><img src="img/imagentest2.jpg"></a>
+				<a href="img/imagentest2.jpg" rel="shadowbox[instagram]" title="Ventana / 2013 - 7 - 1"><img src="img/imagentest2.jpg"></a>
 			</div>
 
 			<div class="content-audio">
 				<p class="img-audio-desc">Contraforma<br><span class="date">2013 - 6 - 30</span><br><span class="categ">audio</span></p>
+				
 				<a onclick="Contraforma.play()" class="button"><audio id="Contraforma" src="audio/contraforma.mp3"></audio>&#9835;</a>
 				<a onclick="Contraforma.pause()" class="button"></audio> &#10006</a>
+
 			</div>
 
 			<div class="content-2">
 				<p class="img-2-desc">Para los pasajeros<br><span class="date">2013 - 4 - 24</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest3.jpg" rel="lightbox[roadtrip]" title="Para los pasajeros / 2013 - 4 - 24 / instagram"><img src="img/imagentest3.jpg"></a>
+				<a href="img/imagentest3.jpg" rel="shadowbox[instagram]" title="Para los pasajeros / 2013 - 4 - 24"><img src="img/imagentest3.jpg"></a>
 			</div>
 			<div class="content-3">
 				<p class="img-3-desc">Lennon<br><span class="date">2012 - 10 - 23</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest2.jpg" rel="lightbox[roadtrip]" title="Lennon / 2012 - 10 - 23 / ilustración digital"><img src="img/ilustraciontest2.jpg"></a>
+				<a href="img/ilustraciontest2.jpg" rel="shadowbox[ilustración digital]" title="Lennon / 2012 - 10 - 23"><img src="img/ilustraciontest2.jpg"></a>
 			</div>
 			<div class="content-3">
 				<p class="img-3-desc">Force<br><span class="date">2006 - 9 - 16</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest3.jpg" rel="lightbox[roadtrip]" title="Force / 2006 - 9 - 16 / ilustración digital"><img src="img/ilustraciontest3.jpg"></a>
+				<a href="img/ilustraciontest3.jpg" rel="shadowbox[ilustración digital]" title="Force / 2006 - 9 - 16"><img src="img/ilustraciontest3.jpg"></a>
 			</div>
 			<div class="content-3">
 				<p class="img-3-desc">Fairy<br><span class="date">2004 - 2 - 6</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest4.jpg" rel="lightbox[roadtrip]" title="Fairy / 2004 - 2 - 6 / ilustración digital"><img src="img/ilustraciontest4.jpg"></a>
+				<a href="img/ilustraciontest4.jpg" rel="shadowbox[ilustración digital]" title="Fairy / 2004 - 2 - 6"><img src="img/ilustraciontest4.jpg"></a>
 			</div>
 			<div class="content-audio">
 				<p class="img-audio-desc">Strawberry<br><span class="date">2013 - 5 - 28</span><br><span class="categ">audio</span></p>
@@ -103,23 +107,23 @@
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Estación Francia<br><span class="date">2011 - 5 - 4</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest5.jpg" rel="lightbox[roadtrip]" title="Estación Francia / 2011 - 5 - 4 / croquis"><img src="img/croquistest5.jpg"></a>
+				<a href="img/croquistest5.jpg" rel="shadowbox[croquis]" title="Estación Francia / 2011 - 5 - 4"><img src="img/croquistest5.jpg"></a>
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Sao Paulo 5<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest6.jpg" rel="lightbox[roadtrip]" title="Sao Paulo 5 / 2012 - 10 - 12 / croquis"><img src="img/croquistest6.jpg"></a>
+				<a href="img/croquistest6.jpg" rel="shadowbox[croquis]" title="Sao Paulo 5 / 2012 - 10 - 12"><img src="img/croquistest6.jpg"></a>
 			</div>
 			<div class="content-1">
 				<p class="img-1-desc">Sotomayor<br><span class="date">2010 - 11 - 24</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest7.jpg" rel="lightbox[roadtrip]" title="Sotomayor / 2010 - 11 - 24 / croquis"><img src="img/croquistest7.jpg"></a>
+				<a href="img/croquistest7.jpg" rel="shadowbox[croquis]" title="Sotomayor / 2010 - 11 - 24"><img src="img/croquistest7.jpg"></a>
 			</div>
 			<div class="content-2">
 				<p class="img-2-desc">Flameante<br><span class="date">2013 - 5 - 2</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest4.jpg" rel="lightbox[roadtrip]" title="Flameante / 2013 - 5 - 2 / instagram"><img src="img/imagentest4.jpg"></a>
+				<a href="img/imagentest4.jpg" rel="shadowbox[instagram]" title="Flameante / 2013 - 5 - 2"><img src="img/imagentest4.jpg"></a>
 			</div>
 			<div class="content-2">
 				<p class="img-2-desc">Recreo<br><span class="date">2013 - 9 - 8</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest5.jpg" rel="lightbox[roadtrip]" title="Recreo / 2013 - 9 - 8 / instagram"><img src="img/imagentest5.jpg"></a>
+				<a href="img/imagentest5.jpg" rel="shadowbox[instagram]" title="Recreo / 2013 - 9 - 8"><img src="img/imagentest5.jpg"></a>
 			</div>
 			<div class="content-audio">
 				<p class="img-audio-desc">Llovizna<br><span class="date">2013 - 5 - 28</span><br><span class="categ">audio</span></p>
