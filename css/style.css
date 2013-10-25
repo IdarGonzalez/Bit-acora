@@ -395,7 +395,9 @@ footer {
    text-shadow: #1e4158 0 1px 0;
    background: white;
    color: #DFC160;
+   cursor:pointer;
    }
+
 .button:active {
    text-shadow: #1e4158 0 1px 0;
    border: 1px solid #0a3c59;
