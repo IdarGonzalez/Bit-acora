@@ -190,7 +190,7 @@ footer {
 	width: 320px;
 	height: 320px;
 	background-color: #DF0129;
-	border: 2px solid white;
+	border: 1px solid white;
 	overflow: hidden;
 }
 
@@ -240,10 +240,10 @@ footer {
 
 .content-2 {
 	float: left;
-	width: 644px;
+	width: 642px;
 	height: 320px;
 	background-color: #79A7A4;
-	border: 2px solid white;
+	border: 1px solid white;
 	overflow: hidden;
 }
 
@@ -284,9 +284,9 @@ footer {
 .content-3 {
 	float: left;
 	width: 320px;
-	height: 644px;
+	height: 642px;
 	background-color: #F4F4F4;
-	border: 2px solid white;
+	border: 1px solid white;
 	overflow: hidden;
 }
 
@@ -329,7 +329,7 @@ footer {
 	width: 320px;
 	height: 320px;
 	background-color: #DFC160;
-	border: 2px solid white;
+	border: 1px solid white;
 	overflow: hidden;
 }
 
@@ -561,7 +561,7 @@ h3 {
 	color: white;
 	position: fixed;
 	top: 100px;
-	left: 187px;
+
 }
 
 .Comments {

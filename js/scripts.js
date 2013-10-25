@@ -1,5 +1,5 @@
 jQuery(document).ready( function($){
-	$('.Form').click(function () {
+	$('.form').click(function () {
 		$('#comment_form').toggle("slow");
 	});
 	$('.openComments').click(function(){
