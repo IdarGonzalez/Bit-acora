@@ -1,7 +1,122 @@
 body {
-	background-color: red;
-	color: #fff;
+	background-color: #1C1C1C;
+	color: #eee;
+	font-family: $sans;
 }
+
+header {
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: #000;
+	padding: 100px 0;
+	text-align: center;
+	color: #eee;
+	h6 {
+		text-transform: uppercase;
+		letter-spacing: 16px;
+		font-size: 32px;
+		font-weight: $bold;
+	}
+}
+
+a {
+	&:hover {
+		color: #a50d13;
+	}
+}
+
+
+// Text align
+
+.text-center {
+	text-align: center;
+}
+
+// Text style
+
+.italic {
+	font-style: italic;
+}
+
+// Text transform
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+// Object float
+
+.float-left {
+	float: left;
+}
+
+// Margins
+
+.margin-auto {
+	margin: auto;
+}
+// Margins bottom
+.margin-bottom-xs {
+	margin-bottom: 5px;
+}
+.margin-bottom-sm {
+	margin-bottom: 15px;
+}
+.margin-bottom-md {
+	margin-bottom: 30px;
+}
+.margin-bottom-lg {
+	margin-bottom: 60px;
+}
+
+// Widths
+
+.w10 {
+	width: 10%;
+}
+.w20 {
+	width: 20%;
+}
+.w30 {
+	width: 30%;
+}
+.w40 {
+	width: 40%;
+}
+.w50 {
+	width: 50%;
+}
+.w60 {
+	width: 60%;
+}
+.w70 {
+	width: 70%;
+}
+.w80 {
+	width: 80%;
+}
+.w90 {
+	width: 90%;
+}
+.w100 {
+	width: 100%;
+}
+
+// Flex
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+}
+
+// Objects
+.caption {
+	padding: 15vh 0;
+}
+
 
 // Extra small devices (portrait phones, less than 34em
 // No media query since this is the default in Bootstrap

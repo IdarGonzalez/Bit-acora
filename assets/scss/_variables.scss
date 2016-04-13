@@ -1,0 +1,19 @@
+// Fonts variables
+$sans: 										'PT Sans', sans-serif;
+$serif: 									'Noto Serif', serif;
+$condensed: 								'Oswald', sans-serif;
+$bold: 										700;
+
+// Fonts classes
+.sans {font-family: $sans}
+.serif {font-family: $serif}
+.condensed {font-family: $condensed}
+
+// Colors variables
+$primary: 									#ed1c24 !important;
+
+// Colors classes
+.primary {color: $primary}
+
+// Background Colors
+.bg-primary {background-color: $primary}
