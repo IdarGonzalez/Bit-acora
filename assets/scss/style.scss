@@ -1,0 +1,15 @@
+// Ensamblador de estilos
+
+// Se importa boostrap como base para nuestros estilos
+@import '../../bower_components/bootstrap/scss/bootstrap.scss';
+
+// Estilos Custom
+@import 'variables';
+@import 'fonts';
+@import 'backgrounds';
+// @import 'blocks';
+@import 'buttons';
+// @import 'nav';
+// @import 'forms';
+@import 'page';
+@import 'widgets';
