@@ -1,0 +1,31 @@
+{
+  "name": "bit-acora",
+  "version": "1.0.0",
+  "description": "Portafolio digital de Idar Gonzalez",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdarGonzalez/Bit-acora.git"
+  },
+  "keywords": [
+    "Idar",
+    "Gonzalez",
+    "Portafolio",
+    "Digital"
+  ],
+  "author": "Idar Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IdarGonzalez/Bit-acora/issues"
+  },
+  "homepage": "https://github.com/IdarGonzalez/Bit-acora#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

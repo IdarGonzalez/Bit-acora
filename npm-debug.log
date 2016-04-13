@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt', '--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/idargonzalez/Sites/Bit-acora/package.json
+5 verbose installManyTop reading scoped package data from /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt/package.json
+6 verbose installManyTop reading scoped package data from /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt-contrib-connect/package.json
+7 verbose installManyTop reading scoped package data from /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt-contrib-sass/package.json
+8 verbose installManyTop reading scoped package data from /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt-contrib-watch/package.json
+9 verbose readDependencies loading dependencies from /Users/idargonzalez/Sites/Bit-acora/package.json
+10 verbose install grunt is installed as 1.0.1
+11 silly cache add args [ 'grunt@^1.0.1', null ]
+12 verbose cache add spec grunt@^1.0.1
+13 silly cache add parsed spec { raw: 'grunt@^1.0.1',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'grunt',
+13 silly cache add   rawSpec: '^1.0.1',
+13 silly cache add   spec: '>=1.0.1 <2.0.0',
+13 silly cache add   type: 'range' }
+14 silly addNamed grunt@>=1.0.1 <2.0.0
+15 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for grunt
+16 silly addNameRange { name: 'grunt', range: '>=1.0.1 <2.0.0', hasData: false }
+17 silly mapToRegistry name grunt
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt
+21 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/grunt
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 10:26:14 PM
+25 verbose request id dbe256cb814f4410
+26 verbose etag "7HEM2MC36Z60YLL0JQSE19G42"
+27 http request GET https://registry.npmjs.org/grunt
+28 http 304 https://registry.npmjs.org/grunt
+29 silly get cb [ 304,
+29 silly get   { date: 'Wed, 13 Apr 2016 01:26:14 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     'cache-control': 'max-age=300',
+29 silly get     etag: '"7HEM2MC36Z60YLL0JQSE19G42"',
+29 silly get     age: '283',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-lax1433-LAX',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '2',
+29 silly get     'x-timer': 'S1460510774.776389,VS0,VE0',
+29 silly get     vary: 'Accept-Encoding' } ]
+30 verbose etag https://registry.npmjs.org/grunt from cache
+31 verbose get saving grunt to /Users/idargonzalez/.npm/registry.npmjs.org/grunt/.cache.json
+32 silly addNameRange number 2 { name: 'grunt', range: '>=1.0.1 <2.0.0', hasData: true }
+33 silly addNameRange versions [ 'grunt',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.2.3',
+33 silly addNameRange     '0.2.4',
+33 silly addNameRange     '0.2.5',
+33 silly addNameRange     '0.2.6',
+33 silly addNameRange     '0.2.7',
+33 silly addNameRange     '0.2.8',
+33 silly addNameRange     '0.2.9',
+33 silly addNameRange     '0.2.10',
+33 silly addNameRange     '0.2.11',
+33 silly addNameRange     '0.2.12',
+33 silly addNameRange     '0.2.13',
+33 silly addNameRange     '0.2.14',
+33 silly addNameRange     '0.2.15',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.2',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.3.4',
+33 silly addNameRange     '0.3.5',
+33 silly addNameRange     '0.3.6',
+33 silly addNameRange     '0.3.7',
+33 silly addNameRange     '0.3.8',
+33 silly addNameRange     '0.3.9',
+33 silly addNameRange     '0.3.10',
+33 silly addNameRange     '0.3.11',
+33 silly addNameRange     '0.3.12',
+33 silly addNameRange     '0.3.13',
+33 silly addNameRange     '0.3.14',
+33 silly addNameRange     '0.3.15',
+33 silly addNameRange     '0.3.16',
+33 silly addNameRange     '0.3.17',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.4.2',
+33 silly addNameRange     '0.4.3',
+33 silly addNameRange     '0.4.4',
+33 silly addNameRange     '0.4.5',
+33 silly addNameRange     '1.0.0-rc1',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.0.1',
+33 silly addNameRange     '0.3.13-a',
+33 silly addNameRange     '0.4.0-a',
+33 silly addNameRange     '0.4.0-rc1',
+33 silly addNameRange     '0.4.0-rc2',
+33 silly addNameRange     '0.4.0-rc3',
+33 silly addNameRange     '0.4.0-rc4',
+33 silly addNameRange     '0.4.0-rc5',
+33 silly addNameRange     '0.4.0-rc6',
+33 silly addNameRange     '0.4.0-rc7',
+33 silly addNameRange     '0.4.0-rc8' ] ]
+34 silly addNamed grunt@1.0.1
+35 verbose addNamed "1.0.1" is a plain semver version for grunt
+36 silly cache afterAdd grunt@1.0.1
+37 verbose afterAdd /Users/idargonzalez/.npm/grunt/1.0.1/package/package.json not in flight; writing
+38 verbose afterAdd /Users/idargonzalez/.npm/grunt/1.0.1/package/package.json written
+39 silly install resolved [ { name: 'grunt',
+39 silly install resolved     description: 'The JavaScript Task Runner',
+39 silly install resolved     version: '1.0.1',
+39 silly install resolved     author:
+39 silly install resolved      { name: 'Grunt Development Team',
+39 silly install resolved        url: 'http://gruntjs.com/development-team' },
+39 silly install resolved     homepage: 'http://gruntjs.com/',
+39 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gruntjs/grunt.git' },
+39 silly install resolved     license: 'MIT',
+39 silly install resolved     engines: { node: '>=0.10.0' },
+39 silly install resolved     scripts: { test: 'grunt test', 'test-tap': 'grunt test:tap' },
+39 silly install resolved     main: 'lib/grunt',
+39 silly install resolved     bin: { grunt: 'bin/grunt' },
+39 silly install resolved     keywords:
+39 silly install resolved      [ 'task',
+39 silly install resolved        'async',
+39 silly install resolved        'cli',
+39 silly install resolved        'minify',
+39 silly install resolved        'uglify',
+39 silly install resolved        'build',
+39 silly install resolved        'lodash',
+39 silly install resolved        'unit',
+39 silly install resolved        'test',
+39 silly install resolved        'qunit',
+39 silly install resolved        'nodeunit',
+39 silly install resolved        'server',
+39 silly install resolved        'init',
+39 silly install resolved        'scaffold',
+39 silly install resolved        'make',
+39 silly install resolved        'jake',
+39 silly install resolved        'tool' ],
+39 silly install resolved     dependencies:
+39 silly install resolved      { 'coffee-script': '~1.10.0',
+39 silly install resolved        dateformat: '~1.0.12',
+39 silly install resolved        eventemitter2: '~0.4.13',
+39 silly install resolved        exit: '~0.1.1',
+39 silly install resolved        'findup-sync': '~0.3.0',
+39 silly install resolved        glob: '~7.0.0',
+39 silly install resolved        'grunt-cli': '~1.2.0',
+39 silly install resolved        'grunt-known-options': '~1.1.0',
+39 silly install resolved        'grunt-legacy-log': '~1.0.0',
+39 silly install resolved        'grunt-legacy-util': '~1.0.0',
+39 silly install resolved        'iconv-lite': '~0.4.13',
+39 silly install resolved        'js-yaml': '~3.5.2',
+39 silly install resolved        minimatch: '~3.0.0',
+39 silly install resolved        nopt: '~3.0.6',
+39 silly install resolved        'path-is-absolute': '~1.0.0',
+39 silly install resolved        rimraf: '~2.2.8' },
+39 silly install resolved     devDependencies:
+39 silly install resolved      { difflet: '~0.2.3',
+39 silly install resolved        'grunt-contrib-jshint': '~1.0.0',
+39 silly install resolved        'grunt-contrib-nodeunit': '~0.4.1',
+39 silly install resolved        'grunt-contrib-watch': '~1.0.0',
+39 silly install resolved        'grunt-jscs': '~2.8.0',
+39 silly install resolved        semver: '2.1.0',
+39 silly install resolved        shelljs: '~0.5.3',
+39 silly install resolved        temporary: '~0.0.4',
+39 silly install resolved        through2: '~2.0.0' },
+39 silly install resolved     files: [ 'lib', 'bin' ],
+39 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+39 silly install resolved     gitHead: '8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca',
+39 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt/issues' },
+39 silly install resolved     _id: 'grunt@1.0.1',
+39 silly install resolved     _shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+39 silly install resolved     _from: 'grunt@>=1.0.1 <2.0.0',
+39 silly install resolved     _npmVersion: '2.15.2',
+39 silly install resolved     _nodeVersion: '4.4.1',
+39 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+39 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+39 silly install resolved        tarball: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' },
+39 silly install resolved     _npmOperationalInternal:
+39 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+39 silly install resolved        tmp: 'tmp/grunt-1.0.1.tgz_1459880209209_0.8634267684537917' },
+39 silly install resolved     directories: {},
+39 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz',
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install grunt@1.0.1 into /Users/idargonzalez/Sites/Bit-acora
+41 info installOne grunt@1.0.1
+42 verbose installOne of grunt to /Users/idargonzalez/Sites/Bit-acora not in flight; installing
+43 verbose lock using /Users/idargonzalez/.npm/_locks/grunt-665cdbdeefb78ac7.lock for /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt
+44 silly install write writing grunt 1.0.1 to /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt
+45 verbose unbuild node_modules/grunt
+46 info preuninstall grunt@1.0.1
+47 info uninstall grunt@1.0.1
+48 verbose unbuild rmStuff grunt@1.0.1 from /Users/idargonzalez/Sites/Bit-acora/node_modules
+49 silly gentlyRm /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt is being gently removed
+50 silly gentlyRm verifying /Users/idargonzalez/Sites/Bit-acora is an npm working directory
+51 silly gentlyRm containing path /Users/idargonzalez/Sites/Bit-acora is under npm's control, in /Users/idargonzalez/Sites/Bit-acora
+52 silly gentlyRm deletion target /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt is under /Users/idargonzalez/Sites/Bit-acora
+53 verbose gentlyRm vacuuming from /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt up to /Users/idargonzalez/Sites/Bit-acora
+54 silly vacuum-fs removing /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt
+55 verbose unlock done using /Users/idargonzalez/.npm/_locks/grunt-665cdbdeefb78ac7.lock for /Users/idargonzalez/Sites/Bit-acora/node_modules/grunt
+56 verbose stack Error: EACCES, unlink '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt'
+56 verbose stack     at Error (native)
+57 verbose cwd /Users/idargonzalez/Sites/Bit-acora
+58 error Darwin 15.3.0
+59 error argv "node" "/usr/local/bin/npm" "install" "grunt" "--save"
+60 error node v0.12.7
+61 error npm  v2.11.3
+62 error path /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt
+63 error code EACCES
+64 error errno -13
+65 error Error: EACCES, unlink '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt'
+65 error     at Error (native)
+65 error  { [Error: EACCES, unlink '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt']
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   path: '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt' }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]
+68 verbose unbuild node_modules/grunt
+69 info preuninstall grunt@1.0.1
+70 info uninstall grunt@1.0.1
+71 verbose unbuild rmStuff grunt@1.0.1 from /Users/idargonzalez/Sites/Bit-acora/node_modules
+72 silly gentlyRm /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt is being gently removed
+73 silly gentlyRm verifying /Users/idargonzalez/Sites/Bit-acora is an npm working directory
+74 silly gentlyRm containing path /Users/idargonzalez/Sites/Bit-acora is under npm's control, in /Users/idargonzalez/Sites/Bit-acora
+75 silly gentlyRm deletion target /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt is under /Users/idargonzalez/Sites/Bit-acora
+76 verbose gentlyRm vacuuming from /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt up to /Users/idargonzalez/Sites/Bit-acora
+77 silly vacuum-fs removing /Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt
+78 error error rolling back Error: EACCES, unlink '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt'
+78 error error rolling back     at Error (native)
+78 error error rolling back  { [Error: EACCES, unlink '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt']
+78 error error rolling back   errno: -13,
+78 error error rolling back   code: 'EACCES',
+78 error error rolling back   path: '/Users/idargonzalez/Sites/Bit-acora/node_modules/.bin/grunt' }
